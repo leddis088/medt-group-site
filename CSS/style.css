@@ -1,13 +1,267 @@
+/*Style index.html*/
 body {
-    background-color: green;
+    background-image: url("../IMG/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.mainNavbar > div {
-   display: flex;
-}
-.navbarItem {
+/* styling of the navbar */
+.navbar {
     display: flex;
+    background-color: black;
+    border-radius: 15px;
+    border-width: 12px;
+    border-style: solid;
+    font-family: "American Typewriter", monospace;
+    justify-content: center;
+}
+
+.left { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15.5%;
+}
+
+.content {
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    color: darkgray;
+}
+
+a {
+    color: cornsilk;
+}
+
+/* styling of the footer */
+.footer {
+    display: flex;
+    flex: 0;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.contentF {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    color: darkgray;
+}
+
+fieldset.fahrzeugBuchen {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0 0 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    border-width: 0.8em;
+
+}
+
+.return {
+    flex-wrap: wrap;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+legend {
+    color: orange;
+    font-family: "fantasy";
+    font-size: 18px;
+}
+
+/* start of autos.html styling */
+
+.categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inhalt {
+    display: flex;
+    flex-direction: column;
+}
+
+.textMen {
+    font-size: 20px;
+    font-family: "Copperplate", fantasy;
+    color: lightgray;
+}
+
+.choice {
+    font-size: 15px;
+    font-family: "Courier New", monospace;
+    border-radius: 5px;
+    border-color: red;
+    color: lightcyan;
+    background-color: transparent;
+}
+
+.carsFS {
+    border-radius: 15px;
+    background-color: rgba(0,10,0,.7);
+}
+
+.carsIndex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-.navbarLeft {
- 
+
+.text {
+    font-size: 20px;
+    color: lightblue;
+}
+
+.diescription {
+    display: flex;
+    flex-direction: column;
+    color: navajowhite;
+    font-size: 20px;
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    color: whitesmoke;
+}
+.IMG {
+    display: flex;
+    flex-basis: 100%;
+    width: 150px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.rentButton {
+    font-size: 25px;
+    border-color: red;
+    border-width: 3px;
+    color: red;
+    background-color: darkgray;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buyButton {
+    font-size: 25px;
+    border-color: blue;
+    border-width: 3px;
+    color: blue;
+    background-color: darkgrey;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buyButton:hover {
+    background-color: yellow;
+    transition: 0.5s;
+    font-size: 27px;
+}
+
+.rentButton:hover {
+    background-color: cyan;
+    transition: 0.5s;
+    font-size: 27px;
+}
+
+.backButton {
+    display: flex;
+    justify-content: start;
+    font-size: 25px;
+    border-color: green;
+    border-width: 3px;
+    color: green;
+    background-color: darkgrey;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.backButton:hover {
+    background-color: magenta;
+    transition: 0.5s;
+    font-size: 27px; 
+}
+
+/* conformation style */
+.conformationText {
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    color: yellowgreen;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+/* service text */
+.serviceText {
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    text-align: center;
+    font-family:"Franklin Gothic Medium", sans-serif;
+    color: darkred;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+/* imprint style */
+.imprint > div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.imprintFS {
+    border-radius: 20px;
+    background-color: rgba(0,10,10, .6);
+    color: navajowhite;
+    font-family:"Copperplate", "Times New Roman",sans-serif;
+}
+
+.copyright {
+   font-size: 20px;
+}
+
+.copyHeading {
+    font-size: 30px;
+}
+
+.imprintHeading {
+    font-size: 20px;
+}
+
+.contactHeading {
+    font-size: 30px;
+}
+
+.contactinformation {
+    font-size: 20px;
 }
