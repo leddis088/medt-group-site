@@ -1,0 +1,25 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset.field1 {
+    border-radius: 20px;
+    border-width: 5px;
+    margin: 10px;
+    margin-left: 24%;
+    width: 60em;
+    background-color: rgba(20,0,0, .5);
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+}
+
+.text {
+    display: flex;
+    justify-content: center; 
+    color: lightgray;
+}
