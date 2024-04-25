@@ -56,6 +56,10 @@ a {
     bottom:0;
     left:0;
     width: 100%;
+    border-radius: 15px;
+    border-width: 12px;
+    border-style: solid;
+    font-family: "American Typewriter", monospace; 
 }
 
 .contentF {

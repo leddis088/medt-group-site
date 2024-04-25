@@ -1,3 +1,10 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 20px;
+}
+
 .mainContent {
     display: flex;
     flex-direction: column;
@@ -7,7 +14,7 @@ fieldset.field1 {
     border-radius: 20px;
     border-width: 5px;
     margin: 10px;
-    margin-left: 24%;
+    margin-left: 20.6%;
     width: 60em;
     background-color: rgba(20,0,0, .5);
 }
