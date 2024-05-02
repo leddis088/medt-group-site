@@ -3,43 +3,59 @@ body {
     background-image: url("../IMG/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: repeat-y;
+    height: 100%;
 }
 /* styling of the navbar */
 .navbar {
     display: flex;
-    background-color: black;
-    border-radius: 15px;
-    border-width: 12px;
-    border-style: solid;
-    font-family: "American Typewriter", monospace;
-    justify-content: center;
-}
-
-.left { 
-    display: flex;
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: space-evenly;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 20%;
 }
 
-.right {
+.navbar a:link,
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active {
+    color: white;
+}
+
+.navbar>.navbar-items {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 15.5%;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 50px;
+    width: 90%;
+    min-width: 630px;
+    position:fixed;
 }
 
-.content {
-    font-size: 30px;
+.navbar>.navbar-items>.left {
+    display: flex;
+    font-size: 25px;
+    margin: 25px;
+    padding: 20px;
+    padding-left: 20px;
+    justify-content: space-evenly;
 }
 
-.navbar a:hover {
-    color: darkgray;
+.logo {
+    position: absolute;
 }
 
-a {
-    color: cornsilk;
+.navbar-items a:link,
+.navbar-items a:visited,
+.navbar-items a:hover,
+.navbar-items a:active {
+    text-decoration: none;
+    color: white;
+}
+.navbar-items a:hover {
+    border-bottom: 2px solid darkgray;
+}
+.active {
+    border-bottom: 2px solid white;
 }
 
 /* styling of the footer */
@@ -60,36 +76,4 @@ a {
     border-width: 12px;
     border-style: solid;
     font-family: "American Typewriter", monospace; 
-}
-
-.contentF {
-    display: flex;
-    justify-content: space-around;
-    width: 10%;
-    color: darkgray;
-}
-
-fieldset.fahrzeugBuchen {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 20px 0 0 20px;
-    max-width: 400px;
-    border-radius: 10px;
-    border-width: 0.8em;
-
-}
-
-.return {
-    flex-wrap: wrap;
-    font-family: monospace;
-    font-size: 15px;
-}
-
-legend {
-    color: orange;
-    font-family: "fantasy";
-    font-size: 18px;
 }
