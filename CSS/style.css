@@ -1,7 +1,6 @@
 /*styling of the body*/
 body {
     background-image: url("../IMG/background.png");
-    background-repeat: no-repeat;
     background-size: cover;
     background-repeat: repeat-y;
     height: 100%;

@@ -1,0 +1,24 @@
+/* styling overall for both support.html files */
+.support {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.support>.support-items>:nth-child(1) {
+    text-align: center;
+    font-size: 20px;
+}
+
+.support>.support-items>:nth-child(2) {
+    text-align: center;
+}
+
+/* styling for support_confirm.html */
+.support-items a:active,
+.support-items a:visited,
+.support-items a:link,
+.support-items a:hover {
+    text-decoration: none;
+    color: black;
+}

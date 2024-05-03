@@ -8,6 +8,8 @@
 .mainContent {
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+    height: 800px;
 }
 
 fieldset.field1 {
@@ -29,4 +31,11 @@ fieldset.field1 {
     display: flex;
     justify-content: center; 
     color: lightgray;
+}
+
+#index_body {
+    background-image: url(../IMG/background_index.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 100%;
 }
