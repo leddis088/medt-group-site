@@ -35,8 +35,13 @@ body {
 .navbar-items a:hover {
     border-bottom: 2px solid darkgray;
 }
-.active {
+.activeNav {
     border-bottom: 2px solid white;
+}
+
+.logo {
+    display: flex;
+    width: 50px;
 }
 
 /* styling of the footer */
@@ -55,16 +60,19 @@ body {
     border-color: white;
     bottom:0;
     width: 95%;
+    font-size: 20px;
     border-style: solid;
     position: fixed;
 }
 
 .footer-items a:hover {
-    border-bottom: 2px solid darkgray;
+    border: 1px solid darkgray;
+    border-radius: 3px;
 }
 
-.active {
-    border-bottom: 2px solid white;
+.activeFooter {
+    border: 2px solid darkgray;
+    border-radius: 5px;
 }
 
 .footer-items a:link,
