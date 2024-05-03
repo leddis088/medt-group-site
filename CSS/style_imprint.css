@@ -22,3 +22,16 @@
 .imprint>.imprint-items>:nth-child(2) {
     text-align: center;
 }
+
+.imprint-items a:link,
+.imprint-items a:visited,
+.imprint-items a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* background generated with https://cssgradient.io/ */
+#imprint_body {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 50%, rgba(0,97,255,1) 100%);
+}
