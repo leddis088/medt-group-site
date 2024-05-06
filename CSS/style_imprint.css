@@ -8,10 +8,11 @@
 
 .imprint>.imprint-items {
     margin-top: 2%;
-    border: 3px solid darkgray;
+    border: 3px solid lightgray;
     border-radius: 10px;
     overflow: scroll;
     height: 800px;
+    color: darkgray;
 }
 
 .imprint>.imprint-items>:nth-child(1) {
@@ -27,7 +28,7 @@
 .imprint-items a:visited,
 .imprint-items a:hover {
     text-decoration: none;
-    color: black;
+    color: darkgray;
 }
 
 /* background generated with https://cssgradient.io/ */
