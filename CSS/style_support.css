@@ -5,24 +5,31 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
 }
 
-.support>.support-items>:nth-child(1) {
+.support>.support-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
+    border: 3px solid darkgray;
+    border-radius: 10px;
     font-size: 20px;
-}
-
-.support>.support-items>:nth-child(2) {
-    text-align: center;
+    width: 30%;
+    margin-top: 3%;
 }
 
 /* background generated with https://cssgradient.io/ */
 .support_body  {
     background: rgb(20, 74, 161);
-    animation: fadeBackground 6s;
+    animation: fadeBackground 2s;
 }
   
 @keyframes fadeBackground {
-    from { background-color: rgb(2,0,36) }
-    to { background-color: rgb(20, 74, 161) }
+    from { 
+        background-color: rgb(2,0,36) 
+    }
+    to { 
+        background-color: rgb(20, 74, 161) 
+    }
 }
 
 /* styling for support_confirm.html */
