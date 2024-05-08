@@ -9,28 +9,32 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    height: 800px;
+    height: 750px;
 }
 
-fieldset.field1 {
-    border-radius: 20px;
-    border-width: 5px;
-    margin: 10px;
-    margin-left: 20.6%;
-    width: 60em;
-    background-color: rgba(20,0,0, .5);
-}
-
-.topic {
+.mainContent>.mainContent-items {
     display: flex;
-    justify-content: center;
-    color: lightgray;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.text {
+.mainContent>.mainContent-items>.topic {
     display: flex;
-    justify-content: center; 
-    color: lightgray;
+    flex-direction: column;
+    align-self: center;
+    border: 2px solid darkgray;
+    background-color: rgba(16, 9, 19, 0.4);
+    border-radius: 10px;
+    max-width: 70%;
+    min-width: 70%;
+}
+
+.mainContent>.mainContent-items>.topic>h2,
+.mainContent>.mainContent-items>.topic>p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkgray;
 }
 
 #index_body {
