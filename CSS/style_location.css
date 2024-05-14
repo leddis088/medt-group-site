@@ -1,0 +1,24 @@
+.location {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightgray;
+}
+
+.location>h1 {
+    align-self: center;
+    color: darkblue;
+}
+
+.location>.location-items {
+    background-color: rgba(16, 9, 19, 0.6);
+    align-self: center;
+    margin-top: 2%;
+    padding: 1%;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    overflow: scroll;
+    text-align: center;
+    min-height: fit-content;
+}

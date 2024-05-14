@@ -1,8 +1,8 @@
 .heading {
     display: flex;
     justify-content: center;
-    color: blue;
-    font-size: 20px;
+    color: #add8e6;
+    font-size: 25px;
 }
 
 .mainContent {
@@ -22,8 +22,8 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    border: 2px solid darkgray;
-    background-color: rgba(16, 9, 19, 0.4);
+    border: 2px solid lightgray;
+    background-color: rgba(16, 9, 19, 0.5);
     border-radius: 10px;
     max-width: 70%;
     min-width: 70%;
@@ -35,12 +35,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: darkgray;
-}
-
-#index_body {
-    background-image: url(../IMG/background_index.jpg);
-    background-size: cover;
-    background-repeat: repeat-y;
-    height: 100%;
+    color: lightgray;
 }

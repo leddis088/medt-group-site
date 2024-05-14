@@ -57,5 +57,5 @@ button:hover {
 .support-items a:link,
 .support-items a:hover {
     text-decoration: none;
-    color: black;
+    color: lightgray;
 }

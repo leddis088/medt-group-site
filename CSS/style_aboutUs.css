@@ -1,0 +1,29 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+    font-size: 25px;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutUs>.aboutUs-items {
+    text-align: center;
+    align-self: center;
+    max-width: fit-content;
+    border: 3px lightgray solid;
+    border-radius: 10px;
+    background-color: rgba(16, 9, 19, 0.5);
+}
+
+/* gardient by https://uigradients.com/#Relay */
+#aboutUs-body {
+    background: #3A1C71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

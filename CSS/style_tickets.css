@@ -1,6 +1,8 @@
 #tickets {
-    background: url(../IMG/background_tickets.jpg) repeat;
-    background-size: cover;
+    background-image: url("../IMG/background_tickets.jpg");
+    background-size: c;
+    background-repeat: repeat-y;
+    height: 100vh;
 }
 
 .tickets {
@@ -8,15 +10,10 @@
     flex-direction: column;
     justify-content: center;
     color: lightgray;
-    overflow: scroll;
-    height: 1300px;
+    overflow-y: scroll;
+    height: 700px;
 }
 
-.tickets>:nth-child(1) {
-    align-self: center;
-    color: rgb(10, 0, 134);
-    font-size: 30px;
-}
 
 .tickets>.ticket-items {
     display: flex;
@@ -66,4 +63,11 @@
     color: darkgray;
     background-color: transparent;
     font-size: 33px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 0, 134);
+    font-size: 25px;
 }
