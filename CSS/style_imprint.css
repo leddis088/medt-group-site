@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightgray;
 
 }
 
@@ -11,8 +12,7 @@
     border: 3px solid lightgray;
     border-radius: 10px;
     overflow: scroll;
-    height: 800px;
-    color: darkgray;
+    height: 85%;
 }
 
 .imprint>.imprint-items>:nth-child(1) {
@@ -28,7 +28,7 @@
 .imprint-items a:visited,
 .imprint-items a:hover {
     text-decoration: none;
-    color: darkgray;
+    color: lightgray;
 }
 
 /* background generated with https://cssgradient.io/ */

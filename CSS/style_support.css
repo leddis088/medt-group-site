@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    color: lightgray;
+    margin-top: 4%;
 }
 
 .support>.support-items {
@@ -15,6 +17,23 @@
     font-size: 20px;
     width: 30%;
     margin-top: 3%;
+    background-color: rgba(0, 23, 5, 0.15);
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+    color: darkgray;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin-bottom: 3%;
+}
+
+button:hover {
+    background-color: rgba(0, 23, 5, 0.2);
+    color: lightgray;
+    transition: 0.4s;
 }
 
 /* background generated with https://cssgradient.io/ */

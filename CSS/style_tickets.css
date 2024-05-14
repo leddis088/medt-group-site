@@ -1,0 +1,52 @@
+.tickets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: lightgray;
+    overflow: scroll;
+    height: 900px;
+}
+
+.tickets>:nth-child(1) {
+    align-self: center;
+    color: rgb(10, 0, 134);
+}
+
+.tickets>.ticket-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-direction: row;
+    background-color: rgba(16, 9, 19, 0.4);
+    margin-top: 2%;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    max-width: 70%;
+    min-width: 70%;
+    margin-bottom: 1.5%;
+}
+
+.tickets>.ticket-items>:nth-child(3) {
+    margin-top: 2%;
+}
+
+.tickets>.ticket-items>:nth-child(1) {
+    margin-top: 4.5%;
+}
+
+.buyButton {
+    transition: 0.4s;
+    background-color: transparent;
+    margin-top: 60%;
+    font-size: 30px;
+    border: 1 solid;
+    border-color: transparent;
+    border-radius: 10px;
+    color: lightgray;
+}
+
+.buyButton:hover {
+    transition: 0.4s;
+    color: darkgray;
+    background-color: transparent;
+}
